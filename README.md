@@ -31,7 +31,13 @@ cd vanilla-attention
 pip install -r requirements.txt
 ```
 
-### 3. Run Tests (Unittest Style)
+### 3. Build Package
+```bash
+pip install .
+```
+
+
+### 4. Run Tests (Unittest Style)
 ```bash
 pytest tests/
 ```
